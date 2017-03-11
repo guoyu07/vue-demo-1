@@ -1,29 +1,3 @@
-# sell
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
 ## 文件说明
 
 ###.babelrc文件
@@ -33,4 +7,5 @@ npm test
 - 所有Babel工具和模块的使用，都必须先写好.babelrc
 - 详见 http://www.ruanyifeng.com/blog/2016/01/babel.html
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[guide](http://vuejs-templates.github.io/webpack/)
+[docs for vue-loader](http://vuejs.github.io/vue-loader).

@@ -36,20 +36,20 @@ module.exports = {
   module: {
     //preLoaders会在loaders之前进行处理，常常用于在编译前检查代码的编码规范
     preLoaders: [
-      {
-        test: /\.vue$/,
-        loader: 'eslint',
-        //指定需要检查的目录
-        include: projectRoot,
-        //指定不需要检查的目录
-        exclude: /node_modules/
-      },
-      {
-        test: /\.js$/,
-        loader: 'eslint',
-        include: projectRoot,
-        exclude: /node_modules/
-      }
+      // {
+      //   test: /\.vue$/,
+      //   loader: 'eslint',
+      //   //指定需要检查的目录
+      //   include: projectRoot,
+      //   //指定不需要检查的目录
+      //   exclude: /node_modules/
+      // },
+      // {
+      //   test: /\.js$/,
+      //   loader: 'eslint',
+      //   include: projectRoot,
+      //   exclude: /node_modules/
+      // }
     ],
     loaders: [
       {
